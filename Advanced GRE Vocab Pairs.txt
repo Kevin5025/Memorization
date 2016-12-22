@@ -1,0 +1,500 @@
+Abate	reduce in intensity
+Abjure	renounce; swear to refrain from something
+Blandishment	words used to coax or flatter [blandish (v)]
+Boor	ill-mannered person [boorish (a)]
+Cardinal	1. high ranking church official; 2. major, important
+Deliberate	1. slow (a); 2. to think over (v); 3. on purpose (a)
+Equivocation	speaking ambiguously [equivocate (v), equivocal (a)]
+Feckless	feeble; helpless; lacking in initiative
+Imperturbability	quality of being calm and not easily disturbed [imperturbable (a)]
+Meretricious	falsely attractive; tawdry
+Augury	prediction, looking for omens [augur (v)]
+Boycott	refuse to have dealings with
+Glib	slick; superficial esp. in speech
+Incise	cut into [incision (n); incisive (a)]
+Moralistic	concerned with morals [moralize (v)]
+Ostracism	shunning; social isolation [ostracize (v)]
+Penchant	inclination; leaning; tendency; predilection
+Rarefy	make less dense [rarefaction (n)]
+Repine	fret; be discontented
+Stipulate	specify [stipulation (n)]
+Diaphanous	transparent; thin and delicate
+Feint	pretended attack; a move intended to deceive
+Inured	hardened; habituated
+Mettlesome	spirited [mettle (n)]
+Puissance	power
+Recondite	obscure
+Stygian	very dark
+Touting	advertising; supporting [tout (v)]
+Virtuosity	skill, expertise [virtuoso (n); virtuosi (n.pl)]
+Volubility	excessive talkativeness [voluble (a)]
+Caret	punctuation mark signifying omission
+Contiguous	adjacent; touching; abutting [contiguity (n)]
+Damp	(used of vibration) reduce in extent
+Ellipsis	omission of essential words
+Extirpation	wiping out; complete destruction [extirpate (v)]
+Foppish	behaving or dressing like a dandy; excessively concerned with fashion
+Gaffe	blunder; social mistake
+Hortatory	encouraging; exhorting
+Opprobrious	expressing great scorn [opprobrium (n)]
+Recumbent	reclining; lying down
+Ambidextrous	able to use both left and right hands equally well
+Culpability	guilt [culpable = blameworthy]
+Discernment	judgment; perceptiveness
+Encomium	praise
+Inveigle	coax; cajole; wheedle; entice
+Minatory	threatening
+Ossified	turned to bone; become rigid [ossification (n)]
+Plumb	measure depth of (v); exact (a. slang)
+Quintessential	most typical; the perfect example of [quintessence (n)]
+Runic	mysterious; magical
+Accretion	accumulation of matter; growth produced by adding from the outside
+Anachronistic	occurring in the wrong time period [anachronism (n)]
+Chronic	long lasting (often used for diseases in which case the opposite is acute)
+Churlishness	rudeness; ill-mannered behavior
+Demagogue	mob leader (who appeals to base instincts) [demagogy/demagoguery (n)]
+Effrontery	daring; audacity (has a negative connotation)
+Idyll	story or incident in peaceful or ideal setting [idyllic (a)]
+Interregnum	interval between reigns or governments
+Nugatory	of minor significance; futile
+Sinecure	job which pays salary but requiring little effort
+Anodized	electroplated; coated with thin layer of metal
+Aphoristic	expressed tersely [aphorism (n) = short statement; maxim]
+Canonical	orthodox [canon (n) = set of accepted works]
+Commensurate	equal in significance
+Dexterity	skill, esp. with hands [dexterous (a)]
+Extant	still in existence (opposite of extinct)
+Impugned	challenged; called into question
+Probity	uprightness; honesty
+Raconteur	person who relates a story
+Solicitous	kindly; expressing care and concern
+Amalgamate	join; consolidate [amalgamation (n)]
+Baleful	evil
+Coerce	force [coercion (n); coercing (a)]
+Inchoate	undeveloped; nascent
+Iniquitous	evil; unjust [iniquity (n)]
+Libertine	dissolute person; prodigal
+Millinery	hats and hat-making
+Natty	neat; dapper; smart
+Occluded	obscured; blocked
+Sidereal	of or related to stars
+Avaricious	greedy for money
+Extirpate	wipe out totally
+Halcyon	peaceful and happy; calm (esp. of summer weather)
+List (v)	1. to lean to one side; 2. to write in order
+Maudlin	sad; sentimental; inclined to weep
+Refulgent	glowing; radiant
+Subliminal	below the threshold of consciousness
+Testiness	irritability; irascibility [testy (a)]
+Vituperate	attack bitterly
+Whittle	1. carve with knife; 2. reduce step by step
+Colander	bowl with holes used to drain vegetables etc.
+Cumbersome	bulky; difficult to carry [encumber = to burden]
+Diaphanous	transparent; thin and delicate
+Dispatch	1. send (v); 2. speed; celerity (n)
+Epistemology	theory of knowledge
+Froward	stubborn; wayward; disobedient
+Supine	lying flat on one?s back
+Throwback	exhibiting primitive, or ancestral, traits
+Untoward	unexpected
+Verisimilar	true to life; giving the appearance of reality
+Abysmal	very deep; very bad
+Approbation	approval [opp. disapprobation]
+Bent (n)	inclination; aptitude
+Cadge	get by begging
+Debacle	disaster
+Extemporize	speak without preparation or rehearsal [extemporaneous (a)]
+Incumbents	occupiers of a job or position
+Lambaste	attack verbally
+Noisome	disgusting
+Pastiche	work (usually artistic) which imitates, or is composed of parts taken from varied sources
+Arboreal	living in trees; concerned with trees
+Centrifuge	device to separate substances by spinning them at high speed
+Cloistered	isolated
+Disabuse	make someone aware of an error in thinking
+Engendering	causing; bringing into being [engender (v)]
+Intemperate	excessive; immoderate [intemperance (n)]
+Lugubrious	sad; gloomy
+Nonplussed	confused
+Pedagogy	science of education; teaching
+Satiate	satisfy; fill completely [satiable (a); satiation (n)]
+Slake	quench; satisfy
+Artless	without effort; without trickery; simple
+Comeliness	beauty; prettiness [comely (a)]
+Doff	take off (esp. of a hat)
+Don	put on (esp. of clothes)
+Erudition	learning; scholarly knowledge [erudite (a)]
+Plaintive	sad; mournful
+Suborn	bribe
+Tendentious	dogmatic; biased
+Tortuous	indirect; winding
+Verbiage	excessive or meaningless wordiness
+Atonement	making amends for sin or crime [atone (v)]
+Complaisance	flexibility; willingness to please [complaisant (a)]
+Daguerreotype	forerunner of the photograph
+Fawn	behave in a sycophantic way; grovel [fawning (a)]
+Gregariousness	sociability; liking for crowds [gregarious (a)]
+Nascent	emerging; newly formed
+Paean	praise; tribute (esp. in song)
+Reproof	scolding; criticism [reprove (v)]
+Scurvy	1. disease due to lack of vitamin C; 2. contemptible; rascally
+Tutelary	serving as a guardian [tutelage (n)]
+Abscission	cutting; process causing leaves to fall off
+Contentious	causing argument [contention (n); contend (v)]
+Debilitating	weakening [debilitate (v)]
+Foible	quirk; minor weakness
+Importune	beg; solicit [importunate (a)]
+Pertain	be relevant to [pertinent (a)]
+Slew	glut; excess
+Toady	sycophant; flatterer
+Torrid	hot and steamy
+Veracious	true [veracity (n)]
+Asperity	using harsh or critical tone
+Blowhard	boastful person
+Disingenuous	crafty
+Evanescent	short-lived [evanescence (n)]
+Intangible	cannot be touched; abstract [intangibility (n)]
+Labile	changing rapidly; unstable
+Malapropism	use of similar sounding but incorrect word
+Posture (v)	to put on an act
+Proximate	immediate; nearest
+Pugnacious	aggressive, ready to fight [pugnacity (n)]
+Foreshadowed	indicated a future event [foreshadow (v)]
+Gaucherie	awkwardness [gauche (a)]
+Heterodox	unorthodox
+Inscrutability	quality of being difficult to comprehend [inscrutable (a)]
+Limerick	short amusing poem
+Mannered	stylized; pretentious
+Pluck (n)	courage
+Sedulous	persevering; eager and thorough
+Syllogism	type of logical reasoning
+Vicissitude	unexpected change in fortune or circumstances
+Acolyte	disciple; follower or attendant
+Admonitory	scolding [admonition (n)]
+Caprices	whimsies; fancies
+Cornucopia	symbol (horn filled with fruit etc.) denoting natural abundance
+Deferential	showing respect [deference (n); defer (v)]
+Intractability	stubbornness; resistance [intractable (a)]
+Luminary	eminent person
+Minion	underling; servant
+Undergird	support; strengthen
+Vitiate	weaken; sap energy
+Coterie	clique; small group with common interests
+Denigrate	decry; criticize; belittle
+Empirical	found by experiment or practice
+Gainsay	contradict
+Hyperbole	exaggeration [hyperbolic (a)]
+Modest	1. bashful; unpretentious; 2. not excessive
+Prolixity	wordiness [prolix (a)]
+Rebus	puzzle in which pictures give clues
+Sere	withered; old
+Vulpine	like a fox [compare with bovine (cow-like); porcine (pig-like), etc.]
+Corroborate	give supporting evidence [corroboration (n)]
+Exacerbated	made worse [exacerbate (v); exacerbation (n)]
+Exact (v)	to demand; extort
+Faddish	whimsical; following a fashion
+Hapless	unlucky
+Misconstrue	put a wrong interpretation on something
+Perennial	long-lasting
+Rent	torn (past participle of the verb to rend)
+Shard	fragment of pottery
+Xenophobe	person afraid of foreigners
+Alleviated	made less severe [alleviation (n); alleviate (v)]
+Apostrophe	1. punctuation mark; 2. appeal to someone not present (a figure of speech)
+Centurion	roman soldier (commander of a company of 100 soldiers)
+Emollient	softening (a); something which softens (n)
+Fusillade	long burst of gunfire
+Inerrancy	infallibility; inability to make mistakes [inerrant (a)]
+Mince	1. chop into small pieces; 2. walk with tiny steps, 3. speak in an affected manner
+Palpate	medical term meaning to examine with the hands
+Platitude	unoriginal, obvious saying
+Quibble	1. (v) to argue about minor matters; to play on words when finding fault; 2. (n) a minor verbal point in an argument
+Apprehension	slight fear; sense of something unfavorable
+Conniving	cunning; scheming [connive (v)]
+Derision	mockery [deride (v)]
+Epigram	short, witty saying
+Lassitude	lack of energy; weariness
+Pedantic	over-insistent on matters of book-learning [pedant (n)]
+Phenomenology	branch of science concerned with things as they are perceived; not directly derived from theory
+Precipitate	1. hurried (a); 2. insoluble product of a reaction in chemistry (n), 3. to instigate or speed up an action (v)
+Renege	go back on promise or retract statement
+Armada	fleet of ships
+Dawdler	slow person who falls behind others [dawdle (v)]
+Dross	something worthless; impurities left after refining
+Expiate	atone; make amends for
+Hack	1. chop roughly; 2. person who writes to earn money, 3. hired horse
+Prone	1. vulnerable to; 2. horizontal
+Propensity	tendency; inclination
+Scabbard	cover for a sword
+Skiff	small boat
+Umbrage	1. shadow; 2. offence; sense of injury
+Dilettantism	dabbling esp. in the arts [dilettante (n) = person who dabbles]
+Enervate	weaken
+Malevolent	having evil intentions [malevolence(n)]
+Neophyte	new convert; tyro
+Panegyric	speech praising someone; laudatory words
+Presage	forewarn of; indicate
+Serration	jagged edge
+Slight	1. minor (a); 2. perceived insult (v) and (n)
+Tare	1. weed; 2. allowance made for container when weighing
+Unprepossessing	unattractive
+Aberration	deviation from the normal
+Cant	insincere talk
+Disinter	dig up [opposite inter = bury]
+Facade	1. front elevation of building, 2. false appearance or demeanor
+Impeding	hindering [impede (v); impediment (n)]
+Lacuna	gap; missing part [plural = lacunae]
+Monolithic	united in purpose; forming a single unit
+Pied	multicolored
+Roster	list of names
+Seemly	appropriate (of behavior); decorous
+Analogue	1. something similar; 2. output proportional to input (engineering)
+Coda	piece of music at the end of a musical work; finale; final part of document
+Commingle	mix
+Equivocal	ambiguous; open to interpretation [equivocate (v), equivocation (n)]
+Fallible	capable of making mistakes [fallibility (n)]
+Hallow	respect; worship
+Indigence	poverty
+Papyrus	material used for writing on before paper was invented
+Pique	1. annoyance (n); 2. to stimulate interest; to annoy (v)
+Sap	1. liquid inside plants (n); 2. to drain; to undermine (v); 3. a fool (n)
+Arbitrator	mediator; person appointed to judge a dispute [arbitrate (v)]
+Descry	to see (esp. at a distance); catch sight of
+Facetious	not intended to be taken seriously
+Indecorous	unseemly; inappropriate (of behavior)
+Proliferate	grow and spread [proliferation (n)]
+Scotch (v)	to prevent; stop; disable
+Strut	1. supporting rod (n); 2. to walk in an arrogant manner; show off (v)
+Toy (v)	to play with
+Usury	lending money at high interest rates
+Wag (n)	a witty person
+Atavism	reappearance of ancestral traits; regression [atavistic (a)]
+Filibuster	delaying tactics
+Gambit	opening move; transaction
+Mitigation	making less severe [mitigate (v)]
+Obligate	compulsory
+Predilection	leaning; interest; talent
+Propitiate	appease; try to gain favor [propitiation (n)]
+Stanch	to stop
+Travesty	parody; ridiculous error
+Waft	drift smoothly (v); whiff; smell (n)
+Forage	search for food
+Lumber	1. walk in an ungainly way; 2. timber (wood)
+Muse	1. think; meditate (v); 2. a source of inspiration (n) [in mythology, a goddess who gives inspiration]
+Prescience	foreknowledge
+Prune	1. to trim; 2. a dried plum
+Ready	(used of wit) quick
+Resolve	firmness (n)
+Squalid	dirty and demeaning
+Sullied	made dirty or impure [opposite unsullied; sully (v)]
+Veneration	worship; respect [venerable (a), venerate (v)]
+Demur	object; hesitate to accept
+Duplicity	cunning; deception; double dealing
+Exigency	urgent matter; pressing need
+Expostulate	offer strong objections; remonstrate
+Gossamer	delicate; filmy; like gauze
+Inefficacious	ineffective
+Pine	1. type of evergreen tree; 2. grieve
+Prudish	narrow-minded; excessively concerned with morals [prudery (n), prude (n)]
+Quixotic	impractically idealistic
+Stipple	cover with dots of paint etc.
+Abrasion	1. damage to skin caused by scraping; 2. process of scraping or rubbing [abrade (v)]
+Adumbrate	outline; indicate
+Cognitive	concerned with thinking or perceiving [cognition (n)]
+Deign	condescend
+Fervid	passionate
+Gall	1. bitterness (bad feeling); 2. confidence; 3. abnormal growth on a plant
+Levee	1. raised bank of a river; 2. morning reception held by a monarch
+Preternatural	unnatural; abnormal
+Quell	suppress
+Score (n)	written form of music
+Abut	to adjoin
+Consternation	worry and concern
+Gavel	judge's hammer
+Lien	right to sell property held as a security; legal hold on job etc.
+Parenthesis	remarks deviating from the main point [parentheses are round brackets in punctuation]
+Sinewy	vigorous; having well-developed muscles [a sinew is a tendon]
+Steep (v)	to soak in water
+Tamp	to plug; press loose matter down tightly (e.g. pack explosives into a hole)
+Venturing	1. hazarding; risking; putting forward; 2. going somewhere [venturesome means courageous or willing to take risks]
+Wry	1. twisted or bent to one side; 2. dryly humorous
+Arduous	hard
+Decimated	kill or destroy a large part of (originally one tenth)
+Fledge	1. grow feathers; 2. leave nest [fledgling (n) = an inexperienced person or a baby bird]
+Gouge	cut or dig out
+Picayune	insignificant; of little value
+Riveting	fascinating [to rivet literally means to fix metal plates using metal pins]
+Soliloquy	solo speech
+Supplicant	person who requests or begs for something [supplicate (v)]
+Transcendental	supernatural; going beyond normal experience [transcendent (a)]
+Veritable	true; genuine [verity (n)]
+Condescension	talking down to someone [condescending (a)]
+Divest	remove; take off
+Eddy	circular current
+Epaulet	shoulder decoration
+Fallacy	wrong idea [fallacious (a)]
+Fringe	1. decorative border with tassels (n); 2. to form an edge (v)
+Leaven	to make light; modify; cause bread to rise using yeast etc.
+Patronize	1. to talk down to; condescend; 2. to be a customer of
+Prominent	1. eminent; 2. protruding; 3. obvious
+Statute	law [statutory (a)]
+Antipathy	hatred
+Aver	affirm
+Expatiate	speak or write at great length
+Flag (v)	1. to lose energy; 2. to signal
+Flail	1. tool used to thresh grain; 2. to thresh (separate grain from chaff); 3. to wave arms about wildly
+Indicted	accused (of crime)
+Loll	laze around; hang out (when used of the tongue)
+Malign	slander
+Secure (v)	1. to fix firmly; 2. to obtain
+Talon	long pointed nail or claw
+Abeyance	state of inactivity; disuse
+Disarm	1. take away weapons; 2. win over to one?s side [disarming (a)]
+Elaborate	1. complex and detailed (a); 2. to expand on (v)
+Foment	1. stir up; 2. bathe with hot liquids (medical)
+Jockeying	maneuvering; struggling to get ahead of others [jockey (v)]
+Minutiae	small details
+Rue	regret [rueful (a)]
+Somatic	concerned with the body
+Stinting	holding back; limiting the supply (of supplies/money etc.) [stint (v)]
+Temperate	moderate
+Allure	1. attraction (n); 2. to attract (v)
+Caulk	treat with substance such as tar to make water-tight
+Conscript	1. person enlisted compulsorily into the armed forces; 2. (v) to enlist compulsorily
+Desultory	aimless; inconsistent in effort
+Elegy	poem concerned with death; praise of a dead person
+Fallow	uncultivated
+Forbearing	tolerant [forbear (v); forbearance (n)]
+Hegemony	political domination; complete authority
+Improbity	lack of honesty or integrity
+Qualm	hesitation or fear
+Assay	1. try; 2. assess purity
+Chauvinist	someone excessively patriotic [chauvinism (n)]
+Discrete	separate; discontinuous (not to be confused with discreet - prudent; diplomatic]
+Enlist	1. sign up for the army; 2. obtain
+Fabricated	made up; false; manufactured [fabricate (v); fabrication(n)]
+Fulminate	1. attack loudly in words; denounce thunderously; 2. explode noisily
+Hawser	thick rope or cable
+Jibe	agree with; complement; match up with (in British usage jibe means mock)
+Peer	1. an equal; 2. to stare at; 3. nobleman
+Stickler	one who is strict about rules or details
+Cloture	closure; terminating a debate by voting
+Congruent	matching [congruency (n)]
+Dally	waste time; flirt
+Dissemble	avoid the truth
+Dote	be excessively fond of [doting (a)]
+Errant	1. wandering; 2. wrong; 3. straying from accepted standards
+Fervent	passionate
+Stomach (v)	to tolerate
+Synapse	junction between two nerve cells
+Undercutting	offering a lower price; undermining
+Arson	deliberate, criminal starting of fires
+Carrion	dead flesh; carcasses
+Intelligible	can be understood
+Ironclad	cannot be altered; firm
+Lint	fluff; soft material used to cover wounds
+Pretension	assumed attitude of superiority; arrogance
+Pundit	expert
+Pyre	ceremonial fire
+Sate	satisfy
+Syncopation	type of musical rhythm with missed beats
+Abraded	worn away; eroded [abrade (v); abrasion (n)]
+Apposite	fitting; suitable
+Diatribe	tirade; violent denunciation; stream of criticism
+Gerontocracy	government by the aged
+Maculated	spotted
+Quisling	traitor
+Sedulity	thoroughness; perseverance [sedulous (a)]
+Seine	type of fishing net
+Tender	to offer
+Waffle	talk nonsense
+Burlesque	1. comic play; 2. lampoon
+Exemplar	model type [exemplary (a)]
+Homiletics	art of preaching and giving sermons
+Impugn	challenge; question someone's honor etc.
+Incubus	encumbrance; nightmarish thing
+Lope	run with long strides
+Macerate	soften or break up by soaking; weaken
+Nostrum	remedy
+Saw	1. tool for cutting; 2. wise saying
+Sibyl	prophetess
+Brook	1. small stream; 2. tolerate
+Emboss	decorate with a raised design
+Eschew	shun; avoid
+Limpid	transparently clear
+Liturgy	form of worship
+Nexus	connection
+Odometer	instrument to measure distance covered
+Purchase	1. grip; 2. buy
+Quotidian	daily; routine
+Seminal	essential; formative
+Agog	amazed; wide-eyed with enthusiasm
+Amortize	pay off a debt in installments
+Curmudgeon	grumpy person
+Dormancy	state of inactivity
+Efficacy	effectiveness
+Epithet	phrase used as a label or to express the essential nature of
+Figurehead	symbol of power; nominal leader
+Fracas	fight; disturbance
+Jamb	door post
+Milk	to squeeze; obtain by application of pressure
+Chorales	simple hymns
+Dissonance	discord; disagreement
+Frieze	decorative border
+Gist	essence; main point
+Latent	hidden; real but undeveloped
+Partiality	bias
+Plodding	walking slowly and heavily; uninspired
+Rekindle	relight; revive
+Symphony	type of musical composition
+Tarnished	made dull; spoil (reputation)
+Compromised	1. damaged or put in doubt (esp. of reputation); 2. reached an agreement by giving up part of a claim
+Drabness	dullness
+Endow	give gift; provide with money etc.
+Esoterica	obscure details
+Falters	hesitates
+Prattle	mindless talk
+Prohibitive	1. prohibiting; 2. exorbitantly expensive
+Purist	conservative; one who insists on correct forms of language etc.
+Quack	charlatan; fake
+Taunt	mock; tease
+Arresting (a)	attracting attention; striking
+Barrage	extended gunfire to cover an attack; dam across river; deluge or information etc.
+Chantey	type of song sung by sailors
+Ferrous	concerned with iron or its compounds
+Manipulative	scheming
+Orate	speak in a pompous manner
+Psychosis	severe mental disturbance
+Savor	enjoy
+Table (v)	put down for future discussion
+Underwrite	give guarantee, insure
+Dissident	person who disagrees [dissidence (n)]
+Enigmatic	puzzling [enigma (n)]
+Foolhardy	reckless [foolhardiness (n)]
+Homogeneity	evenness; uniformity
+Personification	1. represent something as a person; 2. a concrete example of
+Plaque	1. surface deposit on teeth or in artery etc.; 2. decorative plate or sign
+Plausibility	believability [plausible (a)]
+Resilience	resistance; ability to spring back [resilience (a)]
+Trilogy	set of three (literary works etc.); tetralogy = set of four
+Vagary	something unaccountable; freak
+Aisle	corridor; passageway (esp. between rows of seats)
+Discountenance	disallow
+Imperative	must be obeyed
+Indigent	poor; needy [indigence (n)]
+Nadir	lowest point
+Paranoia	mental state characterized by delusions or excessive fear
+Prudence	caution; wisdom
+Resuscitation	revival from unconsciousness [resuscitate (v)]
+Shirk	avoid (esp. work)
+Teetotalism	total abstinence from alcohol
+Balm	soothing ointment or anything soothing [balmy (a)]
+Calibrate	mark an accurate scale on a device
+Cataclysmic	violently disruptive [cataclysm (n)]
+Impropriety	inappropriate behavior
+Pith	center; soft part of stem; essence
+Primordial	present from the beginning of time
+Reconnaissance	examination or survey conducted in advance [reconnoiter (v)]
+Sinistral	left-handed (or counterclockwise) [dextral - right handed]
+Tempers	moderates
+Undermine	subvert; attempt to overthrow
