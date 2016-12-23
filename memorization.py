@@ -59,13 +59,14 @@ def select_definition(priority_dictionary_priority_queue):
     num_terms = len(priority_dictionary_priority_queue)
     pref_num_options = 10
     num_options = min(pref_num_options, num_terms)
-    definition_options_list = []
-    for o in range(0, num_options):
-        definition_options_list.append(heapq.heappop(priority_dictionary_priority_queue))
-    definition_options = pd.DataFrame(definition_options_list)
 
-    random_sample = np.random.choice(10, size=10, replace=False)
-    definition_options = definition_options.ix[random_sample]
+    definition_options_list = []                                                    #gets the options from the priority queue
+    for o in range(0, num_options):                                                 #gets the options from the priority queue
+        definition_options_list.append(heapq.heappop(priority_dictionary_priority_queue))
+    definition_options = pd.DataFrame(definition_options_list)                      #gets the options from the priority queue
+
+    random_sample = np.random.choice(10, size=10, replace=False)                    #randomizes the order of the answer choices
+    definition_options = definition_options.ix[random_sample]                       #randomizes the order of the answer choices
     target_o = np.random.choice(10)
 
     def select_definition_prompt(definition_options):
@@ -78,14 +79,14 @@ def select_definition(priority_dictionary_priority_queue):
     print("You have selected " + "[" + str(o+1) + "] " + definition_options.ix[o, 2] + ". ")
     if o == target_o:
         print("Correct! ")
-        definition_options.ix[o,0] += 1 + int(np.ceil(0.01 * num_terms))
+        definition_options.ix[target_o,0] += 1 + int(np.ceil(0.01 * num_terms))     #updates the priority of the target option
     else:
         print("Incorrect. The correct option was " + definition_options[target_o, 2] + ". ")
-        definition_options.ix[o,0] += 1
+        definition_options.ix[target_o,0] += 1                                      #updates the priority of the target option
 
-    for o in range(0, num_options):
+    for o in range(0, num_options):                                                 #pushes the options back onto the queue
         definition_option = (definition_options.ix[o,0], definition_options.ix[o,1], definition_options.ix[o,2])
-        heapq.heappush(priority_dictionary_priority_queue, definition_option)
+        heapq.heappush(priority_dictionary_priority_queue, definition_option)       #pushes the options back onto the queue
 
 def get_input_int(prompt, options):
     num_options = len(options)
