@@ -39,10 +39,11 @@ def main():
     priority_dictionary_priority_queue = [tuple(x) for x in priority_dictionary_dataframe.values]   #http://stackoverflow.com/questions/9758450/pandas-convert-dataframe-to-array-of-tuples
     heapq.heapify(priority_dictionary_priority_queue)
 
-    while True:
+    pref_num_options = 10
+    while True:     #I have chosen to use an infinite while loop as opposed to infinite recursion, even though tail recursion should not stack overflow and even though recursion would be more parallel in style with the other select_() functions
         input_int = select_action()
         if input_int == 1:
-            select_definition(priority_dictionary_priority_queue)
+            select_definition(priority_dictionary_priority_queue, pref_num_options)
         elif input_int == 2:
             priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
             print("You have " + str(sum(priority_dictionary_dataframe.ix[:,0])) + " points. ")
@@ -100,9 +101,8 @@ def select_action():
 
     return input_int
 
-def select_definition(priority_dictionary_priority_queue):
+def select_definition(priority_dictionary_priority_queue, pref_num_options = 10):
     num_terms = len(priority_dictionary_priority_queue)
-    pref_num_options = 10
     num_options = min(pref_num_options, num_terms)
 
     definition_options_list = []                                                    #gets the options from the priority queue
