@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import heapq
 
-# class Application(tk.Frame):
+# class Application(tk.Frame):      #https://docs.python.org/3/library/tkinter.html
 #     def __init__(self, master=None):
 #         tk.Frame.__init__(self, master)
 #         self.pack()
@@ -29,18 +29,39 @@ import heapq
 # app.mainloop()
 
 def main():
-    dictionary = select_dictionary("dictionaries")    #TODO also get the name of dictionary to create name of a save file
+    dictionary, dictionary_option = select_dictionary()
+    priority_dictionary_option = "Priorities For " + dictionary_option      #keeps the same file extension as that of the dictionary
 
-    priority_dictionary = pd.DataFrame(np.zeros(dictionary.shape[0])).astype(int)    #TODO get_priorities() from save file
+    priority_dictionary_dataframe = load_priority_dictionary_dataframe(priority_dictionary_option)
+    if priority_dictionary_dataframe == None:
+        priority_dictionary_dataframe = new_priority_dictionary_dataframe(dictionary)
 
-    priority_dictionary_dataframe = pd.concat([priority_dictionary, dictionary], axis=1)
-    priority_dictionary_priority_queue = [tuple(x) for x in priority_dictionary_dataframe.values]
+    priority_dictionary_priority_queue = [tuple(x) for x in priority_dictionary_dataframe.values]   #http://stackoverflow.com/questions/9758450/pandas-convert-dataframe-to-array-of-tuples
     heapq.heapify(priority_dictionary_priority_queue)
 
-    while True:     #TODO termination and set_priorities() to save file
-        select_definition(priority_dictionary_priority_queue)
+    #while True:     #TODO termination and save file
+    #    select_definition(priority_dictionary_priority_queue)
 
-def select_dictionary(dictionaries_path):
+    priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
+    save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+
+def new_priority_dictionary_dataframe(dictionary):
+    priorities = pd.DataFrame(np.zeros(len(dictionary))).astype(int)
+    priority_dictionary_dataframe = pd.concat([priorities, dictionary], axis=1)
+    return priority_dictionary_dataframe
+
+def save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option, priority_dictionaries_path = "priority_dictionaries"):
+    priority_dictionary_option_path = priority_dictionaries_path + os.sep + priority_dictionary_option
+    priority_dictionary_dataframe.to_csv(priority_dictionary_option_path, sep='\t', header=None, index=None)                                    #TODO understand encoding problem
+
+def load_priority_dictionary_dataframe(priority_dictionary_option, priority_dictionaries_path = "priority_dictionaries"):
+    priority_dictionary_option_path = priority_dictionaries_path + os.sep + priority_dictionary_option
+    priority_dictionary_dataframe = None
+    if os.path.isfile(priority_dictionary_option_path):
+        priority_dictionary_dataframe = pd.read_csv(priority_dictionary_option_path, sep='\t', header=None, index_col=None, encoding="latin1")  #TODO understand encoding problem   #http://stackoverflow.com/questions/18171739/unicodedecodeerror-when-reading-csv-file-in-pandas-with-python
+    return priority_dictionary_dataframe
+
+def select_dictionary(dictionaries_path="dictionaries"):
     dictionary_options = os.listdir(dictionaries_path)
 
     def select_dictionary_prompt(dictionary_options):
@@ -51,9 +72,9 @@ def select_dictionary(dictionaries_path):
 
     df = input_int - 1
     print("You have selected " + "[" + str(df+1) + "] " + dictionary_options[df] + ". ")
-    dictionary_path = "dictionaries" + os.sep + os.listdir("dictionaries")[df]
-    dictionary = pd.read_csv(dictionary_path, sep='\t', header=None)
-    return dictionary
+    dictionary_option_path = "dictionaries" + os.sep + os.listdir("dictionaries")[df]
+    dictionary = pd.read_csv(dictionary_option_path, sep='\t', header=None, index_col=None)
+    return dictionary, dictionary_options[df]
 
 def select_definition(priority_dictionary_priority_queue):
     num_terms = len(priority_dictionary_priority_queue)
