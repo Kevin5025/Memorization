@@ -33,17 +33,23 @@ def main():
     priority_dictionary_option = "Priorities For " + dictionary_option      #keeps the same file extension as that of the dictionary
 
     priority_dictionary_dataframe = load_priority_dictionary_dataframe(priority_dictionary_option)
-    if priority_dictionary_dataframe == None:
+    if priority_dictionary_dataframe is None:       #http://stackoverflow.com/questions/36217969/how-to-compare-pandas-dataframe-against-none-in-python
         priority_dictionary_dataframe = new_priority_dictionary_dataframe(dictionary)
 
     priority_dictionary_priority_queue = [tuple(x) for x in priority_dictionary_dataframe.values]   #http://stackoverflow.com/questions/9758450/pandas-convert-dataframe-to-array-of-tuples
     heapq.heapify(priority_dictionary_priority_queue)
 
-    #while True:     #TODO termination and save file
-    #    select_definition(priority_dictionary_priority_queue)
-
-    priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
-    save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+    while True:
+        input_int = select_action()
+        if input_int == 1:
+            select_definition(priority_dictionary_priority_queue)
+        elif input_int == 2:
+            priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
+            save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+        elif input_int == 3:
+            priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
+            save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+            break
 
 def new_priority_dictionary_dataframe(dictionary):
     priorities = pd.DataFrame(np.zeros(len(dictionary))).astype(int)
@@ -72,9 +78,24 @@ def select_dictionary(dictionaries_path="dictionaries"):
 
     df = input_int - 1
     print("You have selected " + "[" + str(df+1) + "] " + dictionary_options[df] + ". ")
+
     dictionary_option_path = "dictionaries" + os.sep + os.listdir("dictionaries")[df]
     dictionary = pd.read_csv(dictionary_option_path, sep='\t', header=None, index_col=None)
     return dictionary, dictionary_options[df]
+
+def select_action():
+    action_options = ["Next Word", "Save", "Save & Quit"]
+
+    def select_action_prompt(action_options):       #doesn't really need the get_input_int architecture, but uses it anyways
+        print("Enter a number between 1 and " + str(len(action_options)) + " to select which action to do next. ")
+        for a in range(0, len(action_options)):
+            print("[" + str(a+1) + "] " + action_options[a])
+    input_int = get_input_int(select_action_prompt, action_options)
+
+    a = input_int - 1
+    print("You have selected " + "[" + str(a+1) + "] " + action_options[a] + ". ")
+
+    return input_int
 
 def select_definition(priority_dictionary_priority_queue):
     num_terms = len(priority_dictionary_priority_queue)
@@ -98,6 +119,7 @@ def select_definition(priority_dictionary_priority_queue):
 
     o = input_int - 1
     print("You have selected " + "[" + str(o+1) + "] " + definition_options.ix[o, 2] + ". ")
+
     if o == target_o:
         print("Correct! ")
         definition_options.ix[target_o,0] += 1 + int(np.ceil(0.01 * num_terms))     #updates the priority of the target option
