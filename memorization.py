@@ -45,8 +45,11 @@ def main():
             select_definition(priority_dictionary_priority_queue)
         elif input_int == 2:
             priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
-            save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+            print("You have " + str(sum(priority_dictionary_dataframe.ix[:,0])) + " points. ")
         elif input_int == 3:
+            priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
+            save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
+        elif input_int == 4:
             priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
             save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
             break
@@ -84,7 +87,7 @@ def select_dictionary(dictionaries_path="dictionaries"):
     return dictionary, dictionary_options[df]
 
 def select_action():
-    action_options = ["Next Word", "Save", "Save & Quit"]
+    action_options = ["Next Word", "Check Points", "Save", "Save & Quit"]
 
     def select_action_prompt(action_options):       #doesn't really need the get_input_int architecture, but uses it anyways
         print("Enter a number between 1 and " + str(len(action_options)) + " to select which action to do next. ")
@@ -124,7 +127,7 @@ def select_definition(priority_dictionary_priority_queue):
         print("Correct! ")
         definition_options.ix[target_o,0] += 1 + int(np.ceil(0.01 * num_terms))     #updates the priority of the target option
     else:
-        print("Incorrect. The correct option was " + definition_options[target_o, 2] + ". ")
+        print("Incorrect. The correct option was " + definition_options.ix[target_o, 2] + ". ")
         definition_options.ix[target_o,0] += 1                                      #updates the priority of the target option
 
     for o in range(0, num_options):                                                 #pushes the options back onto the queue
