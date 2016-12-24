@@ -1,7 +1,9 @@
 # Memorization
-Quick script to help me memorize some vocab words. 
+Simple program to help me memorize some vocab words. 
 
-Dictionaries from http://www.majortests.com/gre/wordlist.php
+In Windows Command Prompt, you may run "python3 memorization.py" from this directory. 
+
+The default dictionaries are from http://www.majortests.com/gre/wordlist.php
 
 Work In Progress. 
-TODO: GUI
+(TODO: GUI)
