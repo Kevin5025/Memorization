@@ -117,7 +117,7 @@ def select_definition(priority_dictionary_priority_queue, pref_num_options = 10)
     target_o = np.random.choice(10)
 
     def select_definition_prompt(definition_options):
-        print("Enter a number between 1 and " + str(num_options) + " to select the definition of " + definition_options.ix[target_o, 1] + ". ")
+        print("Enter a number between 1 and " + str(num_options) + " to select the definition of \"" + definition_options.ix[target_o, 1] + "\". ")
         for o in range(0, num_options):
             print("[" + str(o+1) + "] " + definition_options.ix[o, 2])
     input_int = get_input_int(select_definition_prompt, definition_options)
