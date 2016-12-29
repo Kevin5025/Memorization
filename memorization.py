@@ -46,7 +46,7 @@ def main():
             select_definition(priority_dictionary_priority_queue, pref_num_options)
         elif input_int == 2:
             priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
-            print("You have " + str(sum(priority_dictionary_dataframe.ix[:,0])) + " points. ")
+            print("You have knowledge score of " + str(sum(priority_dictionary_dataframe.ix[:,0])) + ". ")
         elif input_int == 3:
             priority_dictionary_dataframe = pd.DataFrame(priority_dictionary_priority_queue)
             save_priority_dictionary_dataframe(priority_dictionary_dataframe, priority_dictionary_option)
@@ -56,7 +56,9 @@ def main():
             break
 
 def new_priority_dictionary_dataframe(dictionary):
-    priorities = pd.DataFrame(np.zeros(len(dictionary))).astype(int)
+    num_terms = len(dictionary)
+    #priorities = pd.DataFrame(np.zeros(num_terms)).astype(int)
+    priorities = pd.DataFrame(np.random.choice(1 + int(np.ceil(0.01 * num_terms)), num_terms))
     priority_dictionary_dataframe = pd.concat([priorities, dictionary], axis=1)
     return priority_dictionary_dataframe
 
@@ -81,14 +83,14 @@ def select_dictionary(dictionaries_path="dictionaries"):
     input_int = get_input_int(select_dictionary_prompt, dictionary_options)
 
     df = input_int - 1
-    print("You have selected " + "[" + str(df+1) + "] " + dictionary_options[df] + ". ")
+    print("You have selected " + "\"[" + str(df+1) + "] " + dictionary_options[df] + "\". ")
 
     dictionary_option_path = "dictionaries" + os.sep + os.listdir("dictionaries")[df]
     dictionary = pd.read_csv(dictionary_option_path, sep='\t', header=None, index_col=None)
     return dictionary, dictionary_options[df]
 
 def select_action():
-    action_options = ["Next Word", "Check Points", "Save", "Save & Quit"]
+    action_options = ["Next Word", "Check Knowledge Score", "Save", "Save & Quit"]
 
     def select_action_prompt(action_options):       #doesn't really need the get_input_int architecture, but uses it anyways
         print("Enter a number between 1 and " + str(len(action_options)) + " to select which action to do next. ")
@@ -97,7 +99,7 @@ def select_action():
     input_int = get_input_int(select_action_prompt, action_options)
 
     a = input_int - 1
-    print("You have selected " + "[" + str(a+1) + "] " + action_options[a] + ". ")
+    print("You have selected " + "\"[" + str(a+1) + "] " + action_options[a] + "\". ")
 
     return input_int
 
@@ -121,13 +123,14 @@ def select_definition(priority_dictionary_priority_queue, pref_num_options = 10)
     input_int = get_input_int(select_definition_prompt, definition_options)
 
     o = input_int - 1
-    print("You have selected " + "[" + str(o+1) + "] " + definition_options.ix[o, 2] + ". ")
+    print("You have selected " + "\"[" + str(o+1) + "] " + definition_options.ix[o, 2] + "\". ")
 
     if o == target_o:
         print("Correct! ")
         definition_options.ix[target_o,0] += 1 + int(np.ceil(0.01 * num_terms))     #updates the priority of the target option
     else:
-        print("Incorrect. The correct option was " + definition_options.ix[target_o, 2] + ". ")
+        print("Incorrect. The correct definition of \"" + definition_options.ix[target_o, 1] + "\" was \"" + definition_options.ix[target_o, 2] + "\". ")
+        print("You had selected the definition of \"" + definition_options.ix[o, 1] + "\", \"" + definition_options.ix[o, 2] + "\". ")
         definition_options.ix[target_o,0] += 1                                      #updates the priority of the target option
 
     for o in range(0, num_options):                                                 #pushes the options back onto the queue
